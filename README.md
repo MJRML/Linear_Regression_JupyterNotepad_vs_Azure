@@ -28,6 +28,17 @@ The purpose of utilizing Azure Machine Learning Designer is to evaluate how effe
 
 Azure Automated ML provides valuable insights by automatically identifying the most suitable model for a given dataset. It streamlines the model development process by evaluating a wide range of algorithms and hyperparameter combinations, significantly reducing the time and effort required for manual experimentation. In addition to model selection, AutoML offers detailed performance metrics for each candidate model, enabling data-driven decisions and accelerating the path to deploying high-performing solutions
 
+## Project Findings
+
+In our Jupyter Notebook implementation, the Lasso Regression model did not yield satisfactory results. The application of L1 regularization led to the suppression of several important features, which in turn negatively impacted the overall model performance. In contrast, the standard Linear Regression model (Ordinary Least Squares - OLS) delivered more reliable and interpretable results. Its performance was notably stronger, making it a more suitable choice for this dataset and providing a solid foundation for further analysis and refinement.
+- **R2 Score: 0.65, MSE: 1.6**
+
+The model developed using Azure Machine Learning Designer demonstrated slightly better performance compared to the manually coded model in Jupyter Notebook. However, the improvement in results was marginal, suggesting that while Designer offers efficiency and ease of use through its visual interface, both approaches produced comparable outcomes in terms of model accuracy and predictive capability
+- **R2 score: 0.67.3, MSE: 0.98**
+
+As expected, Azure AutoML delivered the best performance among all approaches, leveraging its ability to automatically test and optimize a wide range of algorithms. After evaluating multiple models, AutoML identified the Voting Ensemble as the best-fit model for the dataset, demonstrating superior predictive accuracy and overall robustness
+- **R2 Score: 0.75, MSE: 0.12** 
+
 ## Project issues:
 - In the dataset, the Gender column consisted of three distinct categories: 'Male', 'Female', and 'Other'. Notably, the 'Other' category represented over one-third of the total observations. Due to its significant representation, I chose not to drop this category, as doing 
   so would have resulted in the loss of a substantial portion of the data and potential bias.
