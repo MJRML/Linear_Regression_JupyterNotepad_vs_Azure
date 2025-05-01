@@ -21,8 +21,10 @@ In the Jupyter Notebook environment, I performed a comprehensive preprocessing w
 I also placed strong emphasis on data visualization, as it is a critical step in understanding the underlying structure and relationships within the dataset. Specifically, I plotted each independent variable against the target variable to assess potential correlations, trends, and patterns. This exploratory step not only informed feature selection but also provided valuable insights into variable distributions and model interpretability.
 
 # Azure Machine Learning - Designer tool
-
+ Linear_Regression_Azure_Designer_tool.docx
 The purpose of utilizing Azure Machine Learning Designer is to evaluate how effectively the no-code, drag-and-drop interface performs in comparison to a manually coded Linear Regression model developed in a traditional programming environment. This comparison aims to assess both model performance and workflow efficiency between automated tools and custom-coded approaches.
+
+  - [Linear-Regression-Azure-Designer-Tool](Linear_Regression_Azure_Designer_tool.docx)
 
 # Azure Automated ML
 
