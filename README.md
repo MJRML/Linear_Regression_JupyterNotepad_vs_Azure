@@ -12,3 +12,14 @@ This dataset is intended strictly for educational and research purposes. It shou
 
 # Personal Motivation
 I believe that Machine Learning and AI have the potential to significantly impact healthcare, particularly in diagnostics and mental health. However, I also approach the modeling of human behavior with a degree of skepticism, especially given the complexity and nuance involved in psychological conditions. This project serves as both a technical exercise and a critical exploration of the role of ML in analyzing social and behavioral data.
+
+# Jupyter Notebook
+In the Jupyter Notebook I pre-process the dataset to be fitted to our Linear Regression Model, this includes one-hot encoding, normalization and checking for outliers.
+I find it really important to visualizae your data and map each independent variable against our target variable.
+
+## Project issues:
+In the dataset, the Gender column consisted of three distinct categories: 'Male', 'Female', and 'Other'. Notably, the 'Other' category represented over one-third of the total observations. Due to its significant representation, I chose not to drop this category, as doing so would have resulted in the loss of a substantial portion of the data and potential bias.
+
+To prepare this categorical feature for modeling, I applied one-hot encoding, which generated three binary indicator columns—one for each category. However, during model training, I observed unusually large coefficients associated with the encoded gender variables. This behavior is a classic indication of multicollinearity, a condition where independent variables are highly correlated, causing instability in regression coefficient estimates.
+
+This issue arises because one-hot encoding all categories of a variable introduces perfect linear dependency (dummy variable trap). To resolve this issue I removed one of the columns 'gender Other' from the dataset.
