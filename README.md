@@ -16,6 +16,8 @@ I believe that Machine Learning and AI have the potential to significantly impac
 # Jupyter Notebook
 In the Jupyter Notebook environment, I performed a comprehensive preprocessing workflow to prepare the dataset for training with a Linear Regression model. This process included one-hot encoding of categorical variables, normalization of numerical features, and a thorough inspection for outliers to ensure data quality and consistency.
 
+  - [Linear-Regression-JupyterNotebook](Linear_Rgression_JupyerNotebook_Social_Anxiety.ipynb) 
+
 I also placed strong emphasis on data visualization, as it is a critical step in understanding the underlying structure and relationships within the dataset. Specifically, I plotted each independent variable against the target variable to assess potential correlations, trends, and patterns. This exploratory step not only informed feature selection but also provided valuable insights into variable distributions and model interpretability.
 
 # Azure Machine Learning - Designer tool
