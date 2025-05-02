@@ -24,11 +24,13 @@ I also placed strong emphasis on data visualization, as it is a critical step in
  Linear_Regression_Azure_Designer_tool.docx
 The purpose of utilizing Azure Machine Learning Designer is to evaluate how effectively the no-code, drag-and-drop interface performs in comparison to a manually coded Linear Regression model developed in a traditional programming environment. This comparison aims to assess both model performance and workflow efficiency between automated tools and custom-coded approaches.
 
-  - [Linear-Regression-Azure-Designer-Tool](Linear_Regression_Azure_Designer_tool.docx)
+  - [Linear-Regression-Azure-Designer-Tool](Linear_Regression_Azure_Designer_Tool.md)
 
 # Azure Automated ML
 
 Azure Automated ML provides valuable insights by automatically identifying the most suitable model for a given dataset. It streamlines the model development process by evaluating a wide range of algorithms and hyperparameter combinations, significantly reducing the time and effort required for manual experimentation. In addition to model selection, AutoML offers detailed performance metrics for each candidate model, enabling data-driven decisions and accelerating the path to deploying high-performing solutions
+
+  - [Linear-Regression-Azure-Auto-ML](Azure_Auto_ML.md)
 
 ## Project Findings
 
